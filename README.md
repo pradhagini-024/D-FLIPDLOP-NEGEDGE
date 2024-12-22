@@ -51,6 +51,7 @@ module d_ff_neg_edge (d, clk, rst, q);
   end
 endmodule
 ```
+Developed by: Pradhagini A RegisterNumber: 212224050031
 
 **RTL LOGIC FOR D-FLIPFLOP**
 
