@@ -2,11 +2,11 @@
 
 **AIM:**
 
-To implement  D flipflop using verilog and validating their functionality using their functional tables
+To implement D flipflop using verilog and validating their functionality using their functional tables
 
 **SOFTWARE REQUIRED:**
 
-Quartus prime
+Quartus prime II
 
 **THEORY**
 
@@ -28,17 +28,41 @@ Next state of D flip-flop is always equal to data input, D for every positive tr
 
 **Procedure**
 
-/* write all the steps invloved */
-
+1. Type the program in Quartus software.
+2. Compile and run the program.
+3. Generate the RTL schematic and save the logic diagram.
+4. Create nodes for inputs and outputs to generate the timing diagram.
+5. For different input combinations generate the timing diagram.
+   
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+D-FLIP FLOP WITH NEGATIVE EDGE TRIGGER:
 
-**RTL LOGIC FOR FLIPFLOPS**
+```
+module d_ff_neg_edge (d, clk, rst, q);
+  input d, clk, rst;
+  output reg q;
+
+  always @(negedge clk or posedge rst) begin
+    if (rst)
+      q <= 0; // Reset the flip-flop
+    else
+      q <= d; // D input is passed to Q on the negative clock edge
+  end
+endmodule
+```
+
+**RTL LOGIC FOR D-FLIPFLOP**
+
+![Screenshot 2024-12-22 233844](https://github.com/user-attachments/assets/bc4ed6ea-5048-4bf2-aee9-15977cb98f55)
 
 
-**TIMING DIGRAMS FOR FLIP FLOPS**
+**TIMING DIGRAMS FOR D-FLIPFLOP**
+
+![Screenshot 2024-12-22 234143](https://github.com/user-attachments/assets/2fc5d5ea-c4c7-4888-8871-0e78a644dbea)
+
+**RESULT**
+
+Hence designed a D-Flip Flop using verilog and validated their functionality using their functional tables.
 
 
-**RESULTS**
