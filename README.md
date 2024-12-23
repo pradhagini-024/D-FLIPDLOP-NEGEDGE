@@ -1,4 +1,4 @@
-# D-FLIPDLOP-NEGEDGE
+# D-FLIP FLOP-NEGEDGE
 
 **AIM:**
 
@@ -58,9 +58,9 @@ Developed by: Pradhagini A RegisterNumber: 212224050031
 ![Screenshot 2024-12-22 233844](https://github.com/user-attachments/assets/bc4ed6ea-5048-4bf2-aee9-15977cb98f55)
 
 
-**TIMING DIGRAMS FOR D-FLIPFLOP**
+**TIMING DIGRAM FOR D-FLIPFLOP**
 
-![Screenshot 2024-12-22 234143](https://github.com/user-attachments/assets/2fc5d5ea-c4c7-4888-8871-0e78a644dbea)
+![Screenshot 2024-12-23 094004](https://github.com/user-attachments/assets/2a649679-ea72-4977-9aca-e6b37fd09625)
 
 **RESULT**
 
