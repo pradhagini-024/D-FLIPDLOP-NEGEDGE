@@ -58,7 +58,7 @@ Developed by: Pradhagini A RegisterNumber: 212224050031
 ![Screenshot 2024-12-22 233844](https://github.com/user-attachments/assets/bc4ed6ea-5048-4bf2-aee9-15977cb98f55)
 
 
-**TIMING DIGRAM FOR D-FLIPFLOP**
+**TIMING DIAGRAM FOR D-FLIPFLOP**
 
 ![Screenshot 2024-12-23 094004](https://github.com/user-attachments/assets/2a649679-ea72-4977-9aca-e6b37fd09625)
 
